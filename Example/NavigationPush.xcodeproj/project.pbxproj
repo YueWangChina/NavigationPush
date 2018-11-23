@@ -40,7 +40,7 @@
 		0C1C1CE38888B7BAC1CF2138 /* Pods-NavigationPush_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationPush_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationPush_Example/Pods-NavigationPush_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1525A4187CFD13DD0AFF8BA8 /* Pods-NavigationPush_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationPush_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationPush_Tests/Pods-NavigationPush_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4934A3EDF6B980953EEF05CB /* Pods_NavigationPush_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationPush_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D8DAAF6968AA18FB500A09A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4D8DAAF6968AA18FB500A09A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		549B904029A56A143CA60F3C /* Pods-NavigationPush_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationPush_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationPush_Tests/Pods-NavigationPush_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NavigationPush_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationPush_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +64,8 @@
 		656D7D65B1BE0C8CD919A484 /* Pods_NavigationPush_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationPush_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC548231CFE74FC48B149632 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C0FCF5083BDB6DA16BE18DA4 /* NavigationPush.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NavigationPush.podspec; path = ../NavigationPush.podspec; sourceTree = "<group>"; };
+		BC548231CFE74FC48B149632 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C0FCF5083BDB6DA16BE18DA4 /* NavigationPush.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NavigationPush.podspec; path = ../NavigationPush.podspec; sourceTree = "<group>"; };
 		D78206DFD3A18E47210AD25F /* Pods-NavigationPush_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationPush_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationPush_Example/Pods-NavigationPush_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "454431208@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6BYJ87DZP3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,6 +536,7 @@
 			baseConfigurationReference = 0C1C1CE38888B7BAC1CF2138 /* Pods-NavigationPush_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BYJ87DZP3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavigationPush/NavigationPush-Prefix.pch";
 				INFOPLIST_FILE = "NavigationPush/NavigationPush-Info.plist";
@@ -548,6 +552,7 @@
 			baseConfigurationReference = D78206DFD3A18E47210AD25F /* Pods-NavigationPush_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BYJ87DZP3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavigationPush/NavigationPush-Prefix.pch";
 				INFOPLIST_FILE = "NavigationPush/NavigationPush-Info.plist";

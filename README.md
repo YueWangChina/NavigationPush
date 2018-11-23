@@ -18,6 +18,9 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'NavigationPush'
+
+利用反射机制进行解耦，传值为字典采用runtime方式进行映射传值。
+
 ```
 
 ## Author
