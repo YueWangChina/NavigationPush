@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NavigationPush_Example' do
+  pod 'NavigationPush', :path => '../'
+
+  target 'NavigationPush_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
