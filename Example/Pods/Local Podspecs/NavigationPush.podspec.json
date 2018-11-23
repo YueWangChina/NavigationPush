@@ -1,0 +1,23 @@
+{
+  "name": "NavigationPush",
+  "version": "1.0.0",
+  "summary": "UIViewController+NavigationPush用于解耦跳转",
+  "description": "TODO: 用于解耦跳转.采用runtime方式进行跳转映射传值",
+  "homepage": "https://github.com/YueWangChina/NavigationPush",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "454431208@qq.com": "wangyuexdy@163.com"
+  },
+  "source": {
+    "git": "https://github.com/YueWangChina/NavigationPush.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "NavigationPush/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h"
+}

@@ -1,0 +1,6 @@
+framework module NavigationPush {
+  umbrella header "NavigationPush-umbrella.h"
+
+  export *
+  module * { export * }
+}

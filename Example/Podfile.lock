@@ -1,0 +1,16 @@
+PODS:
+  - NavigationPush (1.0.0)
+
+DEPENDENCIES:
+  - NavigationPush (from `../`)
+
+EXTERNAL SOURCES:
+  NavigationPush:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NavigationPush: f91559534a7920f461f1f77735f3b9d610f30f0b
+
+PODFILE CHECKSUM: bc3cd0fd6723eac0373015df0d59c0535cdcad53
+
+COCOAPODS: 1.4.0
